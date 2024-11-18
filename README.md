@@ -19,8 +19,9 @@ java -cp app-1.0-SNAPSHOT.jar -Dloader.path=/Users/sunshow/GIT/sunshow/test-spri
 ## test
 
 ```shell
-➜  test-springboot-properties-launcher git:(main) ✗ curl http://localhost:8080/app/test
+➜  curl http://localhost:8080/app/test
 Hello, this is a app.%
-➜  test-springboot-properties-launcher git:(main) ✗ curl http://localhost:8080/plugin/test
+# 插件加载成功
+➜  curl http://localhost:8080/plugin/test
 Hello, this is a plugin.%
 ```

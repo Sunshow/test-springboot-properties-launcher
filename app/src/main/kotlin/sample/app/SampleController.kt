@@ -13,4 +13,11 @@ class SampleController {
         return "Hello, this is a app."
     }
 
+    @GetMapping("/restart")
+    fun restart(): String {
+        SampleApplication.restart()
+        return "Restarting app..."
+    }
+
+
 }

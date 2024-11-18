@@ -15,7 +15,6 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation(platform("org.springframework.boot:spring-boot-dependencies:3.3.5"))
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-loader")
 }
 
 tasks.test {
